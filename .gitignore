@@ -1,0 +1,3 @@
+# Exclude data folder as it is too large
+data/
+
