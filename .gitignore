@@ -1,3 +1,5 @@
 # Exclude data folder as it is too large
 data/
 
+# Exclude all Jupyter Notebook checkpoints
+.ipynb_checkpoints/
