@@ -5,12 +5,12 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: Spotify 1.2M+ Songs
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## Dataset Presentation
+  by Mazza Luca, Hoxha Roeld, Masciocchi Andrea
 
-  Learn more at [Sli.dev](https://sli.dev)
+  Learn more at [GitHub](https://github.com/lucamazzza/spoty)
 # apply unocss classes to the current slide
 class: text-center
 
@@ -85,6 +85,65 @@ Some interesting columns to analyze
 | **Publication Date** `DateTime`                                        | Most productive parts of the years         |
 
 Spotify computes danceability, energy, ...  with ML algorithms
+
+---
+transition: fade-out
+---
+
+# Song Releases per Year
+
+<img src="./assets/new_songs.png" width="1000">
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+transition: fade-out
+---
+
+# Distribution of song durations 
+<img src="./assets/distribution_of_song_durations.png" width="1000">
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+transition: fade-out
+---
+
+# Danceability through time 
+
+<img src="./assets/danceability_through_time.png" width="700">
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 ---
 transition: slide-left
