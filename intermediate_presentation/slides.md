@@ -62,6 +62,8 @@ transition: slide-left
 
 # Loudness vs Energy 
 
+<br>
+
 <img src="./assets/loud_vs_energy.png" width="1000">
 
 <style>
